@@ -1,5 +1,4 @@
 let name = document.getElementById("name");
-
 function firstLetter(string) {
     let str = string.toLowerCase();
     return str[0].toUpperCase() + str.slice(1);
